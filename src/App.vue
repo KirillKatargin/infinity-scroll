@@ -53,19 +53,31 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="page pb-6" ref="wrapper">
+  <div
+    ref="wrapper"
+    class="page pb-6"
+  >
     <div class="min-h-screen">
-      <ul v-if="store.userList?.length" role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <li v-for="person in store.userList" :key="person.email"
-            class="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow">
-          <UserCard v-bind="person"/>
+      <ul
+        v-if="store.userList?.length"
+        role="list"
+        class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+      >
+        <li
+          v-for="person in store.userList"
+          :key="person.email"
+          class="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow"
+        >
+          <UserCard v-bind="person" />
         </li>
       </ul>
-      <EmptyBlock v-if="!store.userList?.length && !store.isLoading"/>
-      <LoadingIndicator class="mt-5" v-if="store.isLoading"/>
+      <EmptyBlock v-if="!store.userList?.length && !store.isLoading" />
+      <LoadingIndicator
+        v-if="store.isLoading"
+        class="mt-5"
+      />
     </div>
 
-    <div ref="trigger"/>
+    <div ref="trigger" />
   </div>
-
 </template>
