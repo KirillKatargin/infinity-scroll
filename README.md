@@ -3,9 +3,6 @@
 
 ### Git Flow
 
-- Stage (branch:
-  master) [https://leaders2023-14.website.yandexcloud.net/home](https://leaders2023-14.website.yandexcloud.net/home)
-
 ## Getting Started
 
 ### Prerequisites
@@ -33,6 +30,7 @@ $ npm run dev
 ## Build with
 
 - [Vue](https://vuejs.org/) - The web framework used
+- [API](https://randomuser.me/) - api docs
 - [Typescript](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on
   JavaScript, giving you better tooling at any scale
 - [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js
