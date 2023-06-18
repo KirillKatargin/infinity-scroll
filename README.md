@@ -1,8 +1,6 @@
 # Пример бесконечной прокрутки (infinite scroll)
 
 
-### Git Flow
-
 ## Getting Started
 
 ### Prerequisites
