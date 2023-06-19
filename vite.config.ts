@@ -4,6 +4,7 @@ import ImportMetaEnvPlugin from "@import-meta-env/unplugin";
 
 
 export default defineConfig({
+  base: '/infinity-scroll/',
   plugins: [vue(), ImportMetaEnvPlugin.vite({
     example: ".env.example.public",
   }),],
