@@ -1,6 +1,5 @@
 # Пример бесконечной прокрутки (infinite scroll)
 
-
 ## Getting Started
 
 ### Prerequisites
@@ -34,6 +33,9 @@ $ npm run dev
 - [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js
 - [Pinia](https://pinia.vuejs.org/) - state manager
 - [Tailwindcss](https://tailwindcss.com/) - tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
+
+## Demo
+[https://kirillkatargin.github.io/infinity-scroll/](https://kirillkatargin.github.io/infinity-scroll/)
 
 ## Authors
 
