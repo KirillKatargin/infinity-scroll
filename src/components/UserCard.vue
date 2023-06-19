@@ -13,7 +13,9 @@ const props = defineProps<IPerson>()
  * getting full username
  */
 const computedFullName = computed(() => {
-  return props?.name?.first || '' + props?.name?.last || ''
+  const first = props?.name?.first || ''
+  const last = props?.name?.last || ''
+  return `${first} ${last}`
 })
 
 </script>
